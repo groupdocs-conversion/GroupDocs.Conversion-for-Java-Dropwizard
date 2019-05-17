@@ -1,0 +1,154 @@
+@media (max-width: 1024px) {
+    .gd-comparison-toggle {
+        left: auto;
+        right: 42px;
+        position: inherit;
+    }
+    .gd-lbl-toggle {
+        left: 937px;
+    }
+    .gd-drag-n-drop-wrap-compare  {
+        width: 92%;
+        background: #f5f5f5;
+        border: 0;
+        height: auto;
+    }
+    .gd-lbl-toggle::before {
+        border-top: 74px solid transparent;
+        border-bottom: 74px solid transparent;
+        border-left: 25px solid currentColor;
+    }
+    .gd-drag-n-drop-wrap-compare h2, h4 {
+        display: none;
+    }
+    .gd-drag-n-drop-buttons {
+        padding-top: 37px;
+    }
+    .gd-browse-document i {
+        font-size: 90px;
+    }
+    .gd-modal-buttons {
+        font-size: 34px;
+    }
+    .gd-add-url {
+        font-size: 53px;
+        width: 151px;
+    }
+
+    .gd-url-cancel {
+        font-size: 54px;
+    }
+
+    .gd-url-wrap > input {
+        margin-left: 62px;
+    }
+
+    .gd-upload-files-table-idx {
+        width: calc(100% - 20px);
+    }
+
+    .swiper-slide-comparison {
+        width: 60% !important;
+    }
+
+    #gd-select-compare-files section {
+        width: 100%;
+        padding-top: 50px;
+    }
+
+    #gd-pages section {
+        padding: 20px 20px 20px;
+        width: 100%;
+        font-size: 38px;
+    }
+
+    .gd-upload-files-table-idx > div {
+        height: 275px !important;
+    }
+
+    .gd-upload-files-table-i {
+        font-size: 40px !important;
+        top: 72px !important;
+    }
+
+    .gd-filetree-name-compare {
+        top: 55px;
+        left: 75px;
+        width: 100%;
+    }
+
+    .gd-filetree-name-compare > span {
+        font-size: 30px;
+        padding-left: 0;
+    }
+
+    .gd-upload-section-label {
+        padding-top: 18px;
+    }
+
+    .gd-upload-section-label > i {
+        font-size: 26px;
+    }
+
+    #gd-navbar {
+        overflow-x: scroll;
+    }
+
+    #gd-select-compare-files {
+        padding-top: 39px;
+        padding-left: 45px;
+        overflow-y: scroll;
+        height: 100%;
+        display: block;
+        height: 97%;
+        width: 100%;
+    }
+
+    .gd-password-wrap {
+        position: relative;
+        margin-top: 160px !important;
+    }
+
+    #gd-navbar > li {
+        padding: 32px 36px;
+        font-size: 48px;
+    }
+
+    .gd-drag-n-drop-buttons .btn {
+        width: calc(50% - 20px);
+        height: 77px;
+        font-size: 26px;
+    }
+
+    #gd-modal-error {
+        font-size: 38px;
+    }
+
+    .gd-modal-title {
+        font-size: 42px;
+    }
+
+    .gd-close-dad-area {
+        margin-top: -50px;
+    }
+
+    .gd-close-dad-area i {
+        font-size: 54px;
+    }
+    .gd-file-name {
+        font-size: 30px;
+    }
+    .gd-cancel-button {
+        color: #3e4e5a;
+    }
+    .files-table-remove i {
+        color: #3e4e5a;
+    }
+    .swiper-slide-cancel {
+        background-color: unset;
+        width: unset !important;
+    }
+    .files-table-remove {
+        height: 110px;
+    }
+}

@@ -1,0 +1,41 @@
+{
+  "_from": "@groupdocs.examples.jquery/viewer@^0.11.0",
+  "_id": "@groupdocs.examples.jquery/viewer@0.11.0",
+  "_inBundle": false,
+  "_integrity": "sha512-Z2NOZwVI+ErLDUesWBdZ9dnFoQfyNSMcWBTUhZXKluRQoJn/tClyMh64v4fgYuZamvjGQBKfhY1gXuHVxahliw==",
+  "_location": "/@groupdocs.examples.jquery/viewer",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@groupdocs.examples.jquery/viewer@^0.11.0",
+    "name": "@groupdocs.examples.jquery/viewer",
+    "escapedName": "@groupdocs.examples.jquery%2fviewer",
+    "scope": "@groupdocs.examples.jquery",
+    "rawSpec": "^0.11.0",
+    "saveSpec": null,
+    "fetchSpec": "^0.11.0"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@groupdocs.examples.jquery/viewer/-/viewer-0.11.0.tgz",
+  "_shasum": "5d9ebb8dbad71108de2102b8a9829205da32ed40",
+  "_spec": "@groupdocs.examples.jquery/viewer@^0.11.0",
+  "_where": "/Users/pavelegorov/Documents/repos/GroupDocs.Conversion-for-Java-Dropwizard",
+  "author": "",
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Common resources used by other GroupDocs jQuery plugins",
+  "gitHead": "2dd97d0717cb72ed07c421497b756fcf3168919b",
+  "license": "MIT",
+  "main": "index.js",
+  "name": "@groupdocs.examples.jquery/viewer",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.11.0"
+}
