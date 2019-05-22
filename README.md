@@ -13,64 +13,38 @@ GroupDocs.Conversion for Java Dropwizard UI Example
 
 ## Document converter with Java API
 
-**GroupDocs.Conversion for Java API** is a library that allows you to **convert word to PDF, PNG, JPG** or any other document or image format. Using powerful and flexible API GroupDocs.Conversion you will be able to convert a multitude of document formats with the possibility to specify different options.
+**GroupDocs.Conversion for Java API** is a library that allows you to **convert word to PDF, PNG, JPG** and to many other document or image formats supported by the library. Using powerful and flexible GroupDocs.Conversion API you will be able to convert multitude document formats with a wide set of different options.
 
-This web application allows you to convert documents between different formats using simple UI. While it can be used as a standalone application it also can be integrated as part of your project.
+This web application allows you to convert documents between different formats using simple modern UI. While it can be used as a standalone application it also can be integrated as part of your project.
 
 **Note:** without a license application will run in trial mode, purchase [GroupDocs.Conversion for Java license](https://purchase.groupdocs.com/order-online-step-1-of-8.aspx) or request [GroupDocs.Conversion for Java temporary license](https://purchase.groupdocs.com/temporary-license).
 
-| Supported file formats |
-| ---------------------- |
-| Bmp                    |
-| Csv                    |
-| Doc                    |
-| Docm                   |
-| Docx                   |
-| Dot                    |
-| Dotm                   |
-| Dotx                   |
-| Gif                    |
-| Htm                    |
-| Html                   |
-| Ico                    |
-| Jpeg                   |
-| Jpg                    |
-| Odp                    |
-| Ods                    |
-| Odt                    |
-| Ott                    |
-| Pdf                    |
-| Png                    |
-| Pps                    |
-| Ppsx                   |
-| Ppt                    |
-| Pptx                   |
-| Psd                    |
-| Rtf                    |
-| Tif                    |
-| Tiff                   |
-| Txt                    |
-| Xls                    |
-| Xls2003                |
-| Xlsb                   |
-| Xlsm                   |
-| Xlsx                   |
-| Xps                    |
+| Document family        | Supported formats                                                         | Supported conversions                                                                                                                                |
+| ------------------------ | ------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Microsoft Word           | `Doc`,`Docm`,`Docx`,`Dot`,`Dotm`,`Dotx`,`Rtf`,`Txt`,`Odt`,`Ott`           | `Word to Rtf`,`Word to Txt`,`Word to Html`,`Word to Odt`,`Word to Ott`,`Word to Epub`,`Word to Pdf`,`Word to Image`,`Word to Cells`,`Word to Slides` |
+| Microsoft Excel          | `Xls`,`Xls2003`,`Xlsb`,`Xlsm`,`Xlsx`                                      | `Excel to Word`,`Excel to Pdf`,`Excel to Epub`,`Excel to Html`,`Excel to Image`,`Excel to Slides`                                                    |
+| Portable Document Format | `Pdf`                                                                     | `Pdf to Word`,`Pdf to Epub`,`Pdf to Html`,`Pdf to Image`,`Pdf to Cells`,`Pdf to Slides`                                                              |
+| Microsoft PowerPoint     | `Ppt`,`Pps`,`Pptx`,`Ppsx`,`Odp`                                           | `Slides to Word`,`Slides to Pdf`,`Slides to Epub`,`Slides to Html`,`Slides to Image`,`Slides to Excel`                                               |
+| Microsoft Visio          | `Vsd`,`Vsdx`,`Vss`,`Vst`,`Vsx`,`Vtx`,`Vdw`,`Vdx`,`Svg`                    | `Visio to Word`,`Visio to Pdf`,`Visio to Epub`,`Visio to Html`,`Visio to Image`,`Visio to Excel`,`Visio to Slides`                                   |
+| Microsoft Project        | `Mpt`,`Mpp`                                                               | `Tasks to Word`,`Tasks to Pdf`,`Tasks to Epub`,`Tasks to Html`,`Tasks to Image`,`Tasks to Excel`,`Tasks to Slides`                                   |
+| HTML                     | `Html`                                                                    | `Html to Word`,`Html to Pdf`,`Html to Epub`,`Html to Cells`,`Html to Slides`                                                                         |
+| Images                   | `Xps`,`Tiff`,`Tif`,`Jpeg`,`Jpg`,`Png`,`Gif`,`Bmp`,`Ico`,`Dxf`,`Dwg`,`Psd` | `Image to Word`,`Image to Pdf`,`Image to Epub`,`Image to Html`,`Image to Image`,`Image to Cells`,`Image to Slides`                                   | 
+
 
 ## Demo Video
 Coming soon
 
 
 ## Features
-#### GroupDocs.Conversion
+
 - Clean, modern and intuitive design
 - Easily switchable colour theme (create your own colour theme in 5 minutes)
 - Responsive design
 - Convert individual documents
-- Batch convert multiple files
+- Batch convert multiple documents
 - Mobile support (open application on any mobile device)
 - HTML and image modes
-- Convert documents
+- Drag and Drop support
 - Upload documents
 - Cross-browser support (Safari, Chrome, Opera, Firefox)
 - Cross-platform support (Windows, Linux, MacOS)
