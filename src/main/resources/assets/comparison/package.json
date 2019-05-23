@@ -1,0 +1,41 @@
+{
+  "_from": "@groupdocs.examples.jquery/comparison@^0.11.0",
+  "_id": "@groupdocs.examples.jquery/comparison@0.11.0",
+  "_inBundle": false,
+  "_integrity": "sha512-xYicMMFtOOPtRt7Hmx5YApbc3KleRfbe07NGQqULWd/K6CrL1YeyZRF8AKKdp9dfWaKYKOB1BFsMB0h50fqhJQ==",
+  "_location": "/@groupdocs.examples.jquery/comparison",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@groupdocs.examples.jquery/comparison@^0.11.0",
+    "name": "@groupdocs.examples.jquery/comparison",
+    "escapedName": "@groupdocs.examples.jquery%2fcomparison",
+    "scope": "@groupdocs.examples.jquery",
+    "rawSpec": "^0.11.0",
+    "saveSpec": null,
+    "fetchSpec": "^0.11.0"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@groupdocs.examples.jquery/comparison/-/comparison-0.11.0.tgz",
+  "_shasum": "5eb123cce13d4244c212b2bff320a43081749fb7",
+  "_spec": "@groupdocs.examples.jquery/comparison@^0.11.0",
+  "_where": "/Users/pavelegorov/Documents/repos/GroupDocs.Conversion-for-Java-Dropwizard",
+  "author": "",
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "jQuery plugin that allows to display and comapre documents supported by groupdocs libraries APIs",
+  "gitHead": "2dd97d0717cb72ed07c421497b756fcf3168919b",
+  "license": "MIT",
+  "main": "index.js",
+  "name": "@groupdocs.examples.jquery/comparison",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.11.0"
+}
