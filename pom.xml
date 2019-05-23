@@ -6,7 +6,7 @@
 
     <groupId>com.groupdocs.ui</groupId>
     <artifactId>conversion-dropwizard</artifactId>
-    <version>1.8.9</version>
+    <version>1.8.10</version>
     <packaging>jar</packaging>
 
     <name>GroupDocs.Conversion Dropwizard</name>
