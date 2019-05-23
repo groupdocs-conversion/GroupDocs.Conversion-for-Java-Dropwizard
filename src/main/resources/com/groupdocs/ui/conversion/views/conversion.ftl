@@ -5,7 +5,6 @@
     <title>GroupDocs.Conversion for Java Spring</title>
     <link type="text/css" rel="stylesheet" href="/assets/common/css/all.min.css">
     <link type="text/css" rel="stylesheet" href="/assets/common/css/v4-shims.min.css">
-    <link type="text/css" rel="stylesheet" href="/assets/conversion/css/all.css"/>
     <link type="text/css" rel="stylesheet" href="/assets/common/css/swiper.min.css">
     <link type="text/css" rel="stylesheet" href="/assets/common/css/circle-progress.css"/>
     <link type="text/css" rel="stylesheet" href="/assets/viewer/css/viewer.css"/>
@@ -15,6 +14,8 @@
     <link type="text/css" rel="stylesheet" href="/assets/conversion/css/conversion.mobile.css"/>
     <script type="text/javascript" src="/assets/common/js/jquery.min.js"></script>
     <script type="text/javascript" src="/assets/common/js/swiper.min.js"></script>
+    <script type="text/javascript" src="/assets/viewer/js/viewer.js"></script>
+    <script type="text/javascript" src="/assets/conversion/js/tooltipster.bundle.min.js"></script>
     <script type="text/javascript" src="/assets/conversion/js/conversion.js"></script>
 </head>
 <body>

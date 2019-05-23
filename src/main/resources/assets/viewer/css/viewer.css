@@ -455,10 +455,10 @@ MODAL
 .gd-modal-dialog {
     box-shadow: #0005 0px 0px 10px;
     position: absolute;
-    width: 700px;
-    height: 500px;
-    top: calc(50% - 250px);
-    left: calc(50% - 350px);
+    width: 1024px;
+    height: 730px;
+    top: calc(50% - 342px);
+    left: calc(50% - 478px);
 }
 .gd-modal-content {
     background-color: #ffffff;
@@ -481,7 +481,7 @@ MODAL
 }
 .gd-modal-body {
     background-color: #ffffff;
-    padding: 20px;
+    padding: 20px 0;
     overflow: hidden;
     width: 100%;
     height: calc(100% - 52px);
@@ -490,25 +490,77 @@ MODAL
 .gd-modal-table {
     width: 100%;
     text-align: left;
+    margin-top: 21px;
+    display: flex;
+    flex-direction: column;
 }
-.gd-modal-table th:nth-child(3), .gd-modal-table th:last-child {
-    width: 31%;
-    padding-left: 52px;
-}   
-.gd-modal-table > tbody > tr > td {
-    font-size: 14px;
-    padding: 10px 6px;
+.gd-modal-table-head {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-left: 70px;
+    font-size: 13px;
+    color: #ACACAC;
 }
-.gd-modal-table > tbody > tr > td:nth-child(2) {
+.gd-modal-table-head.single {
+    padding-left: 14px;
+}
+.gd-modal-table-head label:last-child {
+    margin-left: 707px;
+}
+.gd-modal-table-head label:last-child.single {
+    margin-left: 835px;
+}
+.gd-modal-table-body {
+    display: flex;
+    flex-wrap: wrap;
+}
+.gd-go-up {
     cursor: pointer;
-    max-width: 200px;
-    overflow: hidden;
+    margin: 8px -29px 10px 68px;
+    height: 19px;
 }
-.gd-modal-table td:nth-child(3), .gd-modal-table td:last-child {
-    font-size: 12px;
+.gd-go-up.single {
+    margin: 8px 8px 10px 13px;
 }
-.gd-modal-table td:last-child {
-    padding-left: 45px
+.gd-file-checkbox {
+    height: 20px;
+    margin: 22px 23px 0 25px;
+}
+.gd-file-checkbox.empty {
+    width: 25px;
+}
+.gd-filetree-name {
+    display: flex;
+    width: inherit;
+}
+.gd-filetree-name.single {
+    margin-left: 12px;
+}
+.gd-file-size {
+    margin-top: 20px;
+    width: 112px;
+    color: #777777;
+}
+.gd-file-table-item > div:last-child > i {
+    font-size: 15px;
+    margin: 23px 34px;
+    cursor: pointer;
+    color: #2B2A2A;
+    opacity: 0.43;
+}
+.gd-filetree-name i {
+    cursor: pointer;
+    height: 32px;
+    font-size: 32px;
+    margin: 14px 13px 22px 0;
+}
+.gd-file-table-item {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border-top: 1px solid #ccc;
+    height: 65px;
 }
 .gd-modal-footer {
     height: 25px;
@@ -532,8 +584,7 @@ MODAL
     position: absolute;
     background-color: #ffffff;
     width: 100%;
-    font-size: 13px;   
-    margin: -20px;
+    font-size: 13px;
     padding: 20px;
 }
 #gd-upload-section {
@@ -566,33 +617,6 @@ MODAL
 #gd-upload-button:disabled {
     cursor: not-allowed;
 }
-#gd-upload-files-table {
-    width: 100%;
-    margin-bottom: 30px;
-    border-spacing: 0;
-}
-#gd-upload-files-table>tbody>tr:nth-of-type(odd) {
-    background-color: #f9f9f9;
-}
-#gd-upload-files-table div div > i {
-    font-size: 21px;
-    position: absolute;
-    top: 25px;
-    left: 10px;
-}
-#gd-upload-files-table .gd-filetree-name {
-    position: absolute;
-    top: 20px;
-    left: 40px;
-    width: calc(100% - 130px);
-    text-align: left;
-}
-#gd-upload-files-table .gd-filetree-name > span {
-    font-size: 12px;
-    font-weight: 300;
-    color: #9a9a9a;
-    margin-right: 15px;
-}
 .gd-upload-status{
     position: absolute;
     width:  18px;
@@ -615,16 +639,22 @@ MODAL
 .gd-cancel-button i {
     font-size: 21px;
 }
+.gd-folder-name {
+    margin-top: 21px !important;
+}
 .gd-file-name {
     white-space: nowrap;
     overflow: hidden;
-    width: 100%;
     text-overflow: ellipsis;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    cursor: pointer;
+    color: #6E6E6E;
 }
-#gd-upload-files-table.gd-file-name {
-    font-weight: bold;
-}
-section {
+.gd-file-format {
+    font-size: 11px;
 }
 #gd-upload-section label i {
     margin-right: 10px;
@@ -651,14 +681,31 @@ section {
     top: 18px;
 }
 .gd-url-wrap {
-    margin-top: 5px;
+    margin-left: 8px;
     position: relative;
+    display: none;
 }
 .gd-url-wrap > input {
-    padding: 0 30px 0 12px;
-    width: 625px;
-    height: 32px;
-    color: #585858;
+    padding: 12 0px 9 8px;
+    width: 358px;
+    height: 31px;
+    color: #959da5;
+    border: 1px solid #25C2D4;
+}
+.gd-url-wrap > input::placeholder {
+    color: #959da5;
+}
+.gd-url-wrap > input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #959da5;
+    opacity: 1; /* Firefox */
+}
+
+.gd-url-wrap > input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #959da5;
+}
+
+.gd-url-wrap > input::-ms-input-placeholder { /* Microsoft Edge */
+    color: #959da5;
 }
 #gd-url-cancel {
     background: transparent;
@@ -667,13 +714,14 @@ section {
     color: #e44646;
     margin-top: -4px;
 }
-#gd-add-url{
-    background: transparent;
-    font-size: 20px;
-    color: #3e4e59;
+#gd-add-url {   
+    font-size: 15px;
+    color: #FFFFFF;
     position: absolute;
-    right: 40px;
-    top: 5px;
+    right: 1px;   
+    width: 34px;
+    height: 31px;
+    background-color: #25C2D4;
 }
 .gd-password-wrap {
     position: relative;
@@ -703,10 +751,16 @@ section {
 }
 .gd-drag-n-drop-wrap {
     border: 2px dashed #ccc;
-    background-color: #f8f8f8;
+    background-color: rgba(248, 248, 248, 0.9);
     text-align: center;
     cursor: default;
-    height: 253px;
+    position: absolute;
+    top: 87px;
+    left: 16px;
+    width: 973px;
+    height: 615px;
+    border-radius: 3px;
+    display: none;
 }
 .gd-drag-n-drop-wrap h2 {
     color: #cacaca;
@@ -714,34 +768,10 @@ section {
     font-size: 15px;
     font-weight: 300;
 }
-.gd-drag-n-drop-wrap h4 {
-    color: #cacaca;
-    font-weight: 300;
-    font-size: 12px;
-    margin: 10px 0 15px;
-}
-.gd-drag-n-drop-wrap h5 {
-    color: #afafaf;
-    font-weight: 200;
-    font-size: 12px;
-    margin: 20px 0 0 0;
-}
-.gd-drag-n-drop-icon {
-    margin: 30px auto 0;
-}
-.gd-drag-n-drop-icon .fa-cloud-download {
-    color: #f1f1f1;
-    font-size: 110px;
-}
-.gd-drag-n-drop-buttons i {
-    margin-right: 5px;
-}
-.gd-drag-n-drop-buttons .btn {
-    width: 134px;
-    height: 35px;
-    margin: 0 10px;
-    font-size: 12px;
-    font-weight: 400;
+.gd-drag-n-drop-wrap i {
+    font-size: 150px;
+    color: #D1D1D1;
+    margin-top: 212px;
 }
 #gd-file {
     display: none;
@@ -752,6 +782,183 @@ section {
 }
 .gd-go-up{
     cursor: pointer;
+}
+
+#gd-upload-actions {
+    display: flex;
+    position: relative;
+    left: 8px;
+}
+.gd-select-all {
+    position: relative;
+    top: 6px;  
+}
+.gd-hdd {
+    color: #404141;
+    font-size: 15px;
+    cursor: pointer;
+    position: absolute;
+    right: 87px;
+    top: 13px;
+    display: none;
+}
+.gd-aws {
+    color: #959DA5;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 30px;
+    position: absolute;
+    right: 38px;
+    top: 13px;
+    display: none;
+}
+.gd-checkbox {
+    width: 19px;
+    height: 19px;
+}
+.gd-checkbox[type="checkbox"]:before {
+    position: relative;
+    display: flex;
+    width: 17px;
+    height: 17px;
+    border: 1px solid #707070;
+    content: "";
+    background: #FFFFFF;
+    cursor: pointer;
+}
+
+.gd-checkbox[type="checkbox"]:after {
+    position: relative;
+    display: flex;
+    left: 1px;
+    top: -18px;
+    width: 16px;
+    height: 16px;
+    content: "";
+    cursor: pointer;
+}
+.gd-checkbox[type="checkbox"]:checked:after {
+    font-family: "Font Awesome 5 Free";
+    content: "\f00c";
+    font-weight: 900;
+    font-size: 16px;
+    color: #6E6E6E;
+}
+#gd-upload-actions {
+    display: flex;
+    margin-left: 15px;
+}
+#gd-upload-actions.single {
+    margin-left: 0px;
+}
+.gd-add-selected {
+    width: 125px;
+    height: 31px;
+    background-color: #3E4E5A;
+    color: #FFFFFF;
+    margin: 0px 8px 0px 22px;
+    border: 0;
+    cursor: not-allowed;
+    opacity: 0.43
+}
+.gd-add-selected.active, .gd-add-selected.active label {
+    cursor: pointer;
+    opacity: 1;
+}
+.gd-add-selected label {
+    font-size: 13px;
+    margin: 6px 15px 0 0;
+    position: absolute;
+}
+.gd-add-selected i {
+    margin: 8px 12px 7px 8px;
+    font-size: 15px;
+}
+.gd-upload-dropdown {   
+    position: relative;
+}
+
+.gd-button {
+    background-color: #25C2D4;
+    cursor: pointer;
+    white-space: nowrap;
+    width: 137px;
+    height: 31px;
+    color: #fff;
+    font-size: 14px;
+}
+.gd-button label {
+    font-size: 13px;
+}
+.gd-button i:last-of-type {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    width: 31px;
+    height: 31px;
+    background-color: #1FA5B4;      
+    font-size: 10px;
+    padding: 10px;
+}
+.gd-button i:first-of-type {
+    margin: 8px 10px 8px 9px;
+    font-size: 15px;
+}
+.gd-upload-input {
+    display: none;
+}
+
+.gd-upload-menu {
+    position: absolute;
+    top: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 0;
+    margin: 2px 0 0 0;
+    box-shadow: 0 0 6px 0 rgba(0,0,0,0.1);
+    background-color: #ffffff;
+    list-style-type: none;
+}
+
+.gd-upload-input + .gd-upload-menu {
+    display: none;
+}
+
+.gd-upload-input:checked + .gd-upload-menu {
+    display: block;
+    position: absolute;
+    left: 105px;
+    width: 100px;
+    border: 0;
+    border-radius: 0;
+    box-shadow: 0 0 6px #cccccc;
+}
+
+.gd-upload-menu li {
+    padding-left: 6px;
+    cursor: pointer;
+    white-space: nowrap;
+    font-size: 12px;
+    color: #959DA5;
+    height: 25px;
+}
+.gd-upload-menu li i {
+    margin: 5px 5px 6px 6px;
+}
+.gd-upload-menu li:hover {
+    background-color: #f6f6f6;
+}
+
+.gd-upload-menu li.divider {
+    padding: 0;
+    border-bottom: 1px solid #cccccc;
+}
+.gd-upload-menu li:first-child {
+    font-size: 10px;
+    color: #959da5;
+    margin-top: 5px;
+    margin-left: 8px;
+    height: 20px;
 }
 /*
 ******************************************
