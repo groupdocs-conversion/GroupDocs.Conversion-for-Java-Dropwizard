@@ -75,7 +75,7 @@ Download [latest release](https://github.com/groupdocs-conversion/GroupDocs.Conv
 curl -J -L -o release.tar.gz https://github.com/groupdocs-conversion/GroupDocs.Conversion-for-Java-Dropwizard/releases/download/0.0.1/release.tar.gz
 tar -xvzf release.tar.gz
 cd release
-java -jar Conversion-1.8.6.jar configuration.yaml
+java -jar conversion-dropwizard-0.0.1.jar configuration.yaml
 ## Open http://localhost:8080/conversion/ in your favorite browser.
 ```
 
