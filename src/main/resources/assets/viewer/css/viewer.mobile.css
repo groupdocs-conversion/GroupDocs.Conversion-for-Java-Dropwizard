@@ -299,6 +299,22 @@
 	.gd-container-spinner {
 		left: 29%;
 	}
+    .gd-url-wrap, .gd-password-wrap {
+        height: 35px;
+        margin: 36px 0 10px 0 !important;
+        position: absolute;
+    }
+    #gd-add-url {
+        height: 25px;
+        width: 31px;
+        font-size: 23px;
+    }
+    .gd-url-wrap > input {
+        margin-left: 0px;
+        width: 303px;
+        height: 25px;
+        font-size: 12px;
+    }
 	/*
 	******************************************
 	PAGES

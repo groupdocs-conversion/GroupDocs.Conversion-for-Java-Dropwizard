@@ -1,33 +1,33 @@
 {
-  "_from": "@groupdocs.examples.jquery/viewer@^0.11.0",
-  "_id": "@groupdocs.examples.jquery/viewer@0.11.0",
+  "_from": "@groupdocs.examples.jquery/viewer@^0.16.0",
+  "_id": "@groupdocs.examples.jquery/viewer@0.16.1",
   "_inBundle": false,
-  "_integrity": "sha512-Z2NOZwVI+ErLDUesWBdZ9dnFoQfyNSMcWBTUhZXKluRQoJn/tClyMh64v4fgYuZamvjGQBKfhY1gXuHVxahliw==",
+  "_integrity": "sha512-KgBmCqVxb1u4Mn172wyY6xZyHhFub5EmWVoyuiPWLi74EeoV2lcdZv3rss0VKu4alm/R0fTlOE8zkK0X+CrC9g==",
   "_location": "/@groupdocs.examples.jquery/viewer",
   "_phantomChildren": {},
   "_requested": {
     "type": "range",
     "registry": true,
-    "raw": "@groupdocs.examples.jquery/viewer@^0.11.0",
+    "raw": "@groupdocs.examples.jquery/viewer@^0.16.0",
     "name": "@groupdocs.examples.jquery/viewer",
     "escapedName": "@groupdocs.examples.jquery%2fviewer",
     "scope": "@groupdocs.examples.jquery",
-    "rawSpec": "^0.11.0",
+    "rawSpec": "^0.16.0",
     "saveSpec": null,
-    "fetchSpec": "^0.11.0"
+    "fetchSpec": "^0.16.0"
   },
   "_requiredBy": [
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/@groupdocs.examples.jquery/viewer/-/viewer-0.11.0.tgz",
-  "_shasum": "5d9ebb8dbad71108de2102b8a9829205da32ed40",
-  "_spec": "@groupdocs.examples.jquery/viewer@^0.11.0",
+  "_resolved": "https://registry.npmjs.org/@groupdocs.examples.jquery/viewer/-/viewer-0.16.1.tgz",
+  "_shasum": "9942135f85d8f5e3d62c17a239632925f82d8da7",
+  "_spec": "@groupdocs.examples.jquery/viewer@^0.16.0",
   "_where": "/Users/pavelegorov/Documents/repos/GroupDocs.Conversion-for-Java-Dropwizard",
   "author": "",
   "bundleDependencies": false,
   "deprecated": false,
   "description": "Common resources used by other GroupDocs jQuery plugins",
-  "gitHead": "2dd97d0717cb72ed07c421497b756fcf3168919b",
+  "gitHead": "4dcd4a961b481858f08b00ce36c38257fd9c1316",
   "license": "MIT",
   "main": "index.js",
   "name": "@groupdocs.examples.jquery/viewer",
@@ -37,5 +37,5 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "version": "0.11.0"
+  "version": "0.16.1"
 }
