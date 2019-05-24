@@ -150,6 +150,13 @@
                                     <mainClass>com.groupdocs.ui.common.MainService</mainClass>
                                     <manifestEntries>
                                         <Class-Path>.</Class-Path>
+                                        <Specification-Title>GroupDocs.Total for Java Spring</Specification-Title>
+                                        <Specification-Version>${project.version}</Specification-Version>
+                                        <Specification-Vendor>GroupDocs</Specification-Vendor>
+                                        <Implementation-Title>GroupDocs.Total for Java Spring</Implementation-Title>
+                                        <Implementation-Version>${project.version}</Implementation-Version>
+                                        <Implementation-Vendor>GroupDocs</Implementation-Vendor>
+                                        <Extension-Name>com.sun.media.imageio</Extension-Name>
                                     </manifestEntries>
                                 </transformer>
                             </transformers>

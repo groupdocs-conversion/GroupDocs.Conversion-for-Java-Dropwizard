@@ -17,6 +17,7 @@ import org.eclipse.jetty.servlets.CrossOriginFilter;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import javax.imageio.ImageIO;
 import javax.servlet.DispatcherType;
 import javax.servlet.FilterRegistration;
 import java.io.File;
@@ -31,6 +32,11 @@ import java.util.HashSet;
  */
 
 public class MainService extends Application<GlobalConfiguration> {
+
+    static {
+        ImageIO.scanForPlugins();
+    }
+
     private static final Logger logger = LoggerFactory.getLogger(MainService.class);
 
     private static final String SERVER_COMMAND = "server";
