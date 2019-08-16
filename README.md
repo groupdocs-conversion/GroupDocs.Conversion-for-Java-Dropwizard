@@ -1,7 +1,7 @@
 ![Convert pdf to doc or doc to pdf](https://raw.githubusercontent.com/groupdocs-conversion/groupdocs-conversion.github.io/master/resources/image/banner.png "GroupDocs.Conversion")
 # GroupDocs.Conversion for Java Dropwizard Example
 GroupDocs.Conversion for Java Dropwizard UI Example
-###### version 0.0.3
+###### version 0.0.4
 
 [![Build Status](https://travis-ci.org/groupdocs-Conversion/GroupDocs.Conversion-for-Java-Dropwizard.svg?branch=master)](https://travis-ci.org/groupdocs-Conversion/GroupDocs.Conversion-for-Java-Dropwizard)
 [![Maintainability](https://api.codeclimate.com/v1/badges/d12e227136c312bb3dad/maintainability)](https://codeclimate.com/github/groupdocs-conversion/GroupDocs.Conversion-for-Java-Dropwizard/maintainability)
@@ -77,10 +77,10 @@ Download [latest release](https://github.com/groupdocs-conversion/GroupDocs.Conv
 **Note**: This method is **recommended** for running this sample behind firewall.
 
 ```bash
-curl -J -L -o release.tar.gz https://github.com/groupdocs-conversion/GroupDocs.Conversion-for-Java-Dropwizard/releases/download/0.0.3/release.tar.gz
+curl -J -L -o release.tar.gz https://github.com/groupdocs-conversion/GroupDocs.Conversion-for-Java-Dropwizard/releases/download/0.0.4/release.tar.gz
 tar -xvzf release.tar.gz
 cd release
-java -jar conversion-dropwizard-0.0.3.jar configuration.yaml
+java -jar conversion-dropwizard-0.0.4.jar configuration.yaml
 ## Open http://localhost:8080/conversion/ in your favorite browser.
 ```
 
