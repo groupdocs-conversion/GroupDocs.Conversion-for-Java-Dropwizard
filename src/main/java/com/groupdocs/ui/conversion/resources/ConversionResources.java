@@ -4,6 +4,7 @@ import com.groupdocs.ui.common.config.GlobalConfiguration;
 import com.groupdocs.ui.common.entity.web.UploadedDocumentEntity;
 import com.groupdocs.ui.common.entity.web.request.FileTreeRequest;
 import com.groupdocs.ui.common.resources.Resources;
+import com.groupdocs.ui.conversion.model.ConversionConfigurationModel;
 import com.groupdocs.ui.conversion.model.request.ConversionPostedData;
 import com.groupdocs.ui.conversion.model.response.ConversionTypesEntity;
 import com.groupdocs.ui.conversion.service.ConversionService;
@@ -45,6 +46,14 @@ public class ConversionResources extends Resources {
         super(globalConfiguration);
         conversionService = new ConversionServiceImpl(globalConfiguration);
     }
+
+    @GET
+    @Path(value = "/loadConfig")
+    @Produces(APPLICATION_JSON)
+    public ConversionConfigurationModel loadConfig() {
+        return ConversionConfigurationModel.createConversionConfiguration(globalConfiguration.getConversion(), globalConfiguration.getCommon());
+    }
+
 
     /**
      * Get conversion page

@@ -1,31 +1,34 @@
 {
-  "_from": "@groupdocs.examples.jquery/common@^0.16.0",
+  "_args": [
+    [
+      "@groupdocs.examples.jquery/common@0.16.0",
+      "/Users/pavelegorov/Documents/repos/GroupDocs.Conversion-for-Java-Dropwizard/client"
+    ]
+  ],
+  "_from": "@groupdocs.examples.jquery/common@0.16.0",
   "_id": "@groupdocs.examples.jquery/common@0.16.0",
   "_inBundle": false,
   "_integrity": "sha512-b4oops3rPBjHh+oN3SSlXUUaLENc4ToNzJcphNsUCDRl019FDzXmUwe4Rgbf3w/VdVDUsilcJpVS2BPCuyJfXg==",
   "_location": "/@groupdocs.examples.jquery/common",
   "_phantomChildren": {},
   "_requested": {
-    "type": "range",
+    "type": "version",
     "registry": true,
-    "raw": "@groupdocs.examples.jquery/common@^0.16.0",
+    "raw": "@groupdocs.examples.jquery/common@0.16.0",
     "name": "@groupdocs.examples.jquery/common",
     "escapedName": "@groupdocs.examples.jquery%2fcommon",
     "scope": "@groupdocs.examples.jquery",
-    "rawSpec": "^0.16.0",
+    "rawSpec": "0.16.0",
     "saveSpec": null,
-    "fetchSpec": "^0.16.0"
+    "fetchSpec": "0.16.0"
   },
   "_requiredBy": [
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/@groupdocs.examples.jquery/common/-/common-0.16.0.tgz",
-  "_shasum": "89531fac76f0516c9c56fe405f14030da2163f01",
-  "_spec": "@groupdocs.examples.jquery/common@^0.16.0",
-  "_where": "/Users/pavelegorov/Documents/repos/GroupDocs.Conversion-for-Java-Dropwizard",
+  "_spec": "0.16.0",
+  "_where": "/Users/pavelegorov/Documents/repos/GroupDocs.Conversion-for-Java-Dropwizard/client",
   "author": "",
-  "bundleDependencies": false,
-  "deprecated": false,
   "description": "This is common resources used by other GroupDocs jQuery plugins",
   "gitHead": "a8f044475cc84c976e440c5203dcfa079f56519f",
   "license": "MIT",

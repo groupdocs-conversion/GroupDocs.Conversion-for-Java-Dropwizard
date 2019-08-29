@@ -1,33 +1,36 @@
 {
-  "_from": "@groupdocs.examples.jquery/viewer@^0.16.0",
-  "_id": "@groupdocs.examples.jquery/viewer@0.16.1",
+  "_args": [
+    [
+      "@groupdocs.examples.jquery/viewer@0.16.6",
+      "/Users/pavelegorov/Documents/repos/GroupDocs.Conversion-for-Java-Dropwizard/client"
+    ]
+  ],
+  "_from": "@groupdocs.examples.jquery/viewer@0.16.6",
+  "_id": "@groupdocs.examples.jquery/viewer@0.16.6",
   "_inBundle": false,
-  "_integrity": "sha512-KgBmCqVxb1u4Mn172wyY6xZyHhFub5EmWVoyuiPWLi74EeoV2lcdZv3rss0VKu4alm/R0fTlOE8zkK0X+CrC9g==",
+  "_integrity": "sha512-Vm5XzMu6Wntx1m9/8j2TyEXqvFo36wEGiIFFPzYvH8174BoTsYz9305rCASyTjIpa0FsbTBz1fZchti4Z4EyPA==",
   "_location": "/@groupdocs.examples.jquery/viewer",
   "_phantomChildren": {},
   "_requested": {
-    "type": "range",
+    "type": "version",
     "registry": true,
-    "raw": "@groupdocs.examples.jquery/viewer@^0.16.0",
+    "raw": "@groupdocs.examples.jquery/viewer@0.16.6",
     "name": "@groupdocs.examples.jquery/viewer",
     "escapedName": "@groupdocs.examples.jquery%2fviewer",
     "scope": "@groupdocs.examples.jquery",
-    "rawSpec": "^0.16.0",
+    "rawSpec": "0.16.6",
     "saveSpec": null,
-    "fetchSpec": "^0.16.0"
+    "fetchSpec": "0.16.6"
   },
   "_requiredBy": [
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/@groupdocs.examples.jquery/viewer/-/viewer-0.16.1.tgz",
-  "_shasum": "9942135f85d8f5e3d62c17a239632925f82d8da7",
-  "_spec": "@groupdocs.examples.jquery/viewer@^0.16.0",
-  "_where": "/Users/pavelegorov/Documents/repos/GroupDocs.Conversion-for-Java-Dropwizard",
+  "_resolved": "https://registry.npmjs.org/@groupdocs.examples.jquery/viewer/-/viewer-0.16.6.tgz",
+  "_spec": "0.16.6",
+  "_where": "/Users/pavelegorov/Documents/repos/GroupDocs.Conversion-for-Java-Dropwizard/client",
   "author": "",
-  "bundleDependencies": false,
-  "deprecated": false,
   "description": "Common resources used by other GroupDocs jQuery plugins",
-  "gitHead": "4dcd4a961b481858f08b00ce36c38257fd9c1316",
+  "gitHead": "80ea316d372393213a98a1fde11be87906af13b1",
   "license": "MIT",
   "main": "index.js",
   "name": "@groupdocs.examples.jquery/viewer",
@@ -37,5 +40,5 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "version": "0.16.1"
+  "version": "0.16.6"
 }

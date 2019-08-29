@@ -1,6 +1,6 @@
 # GroupDocs.Viewer
 
-Simple jQuery plugin that allows to display and manipulate documents supported by groupdocs libraries APIs
+jQuery plugin that allows to view documents supported by GroupDocs.Viewer. This application allows you to view DOCX, PDF, PPT, XLS, and over 90 document formats without any additional dependencies and view documents as a set of images or HTML5 pages. 
 
 # Getting started
 
@@ -26,10 +26,10 @@ Add following code within `<body>` tag
 # Note
 This plugin is intended to work with following GroupDocs examples:
 
-- [GroupDocs Viewer for Java Spring](https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Java-Spring)
-- [GroupDocs Viewer for Java Dropwizard](https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Java-Dropwizard)
-- [GroupDocs Viewer for .NET WebForms](https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-.NET-WebForms)
-- [GroupDocs Viewer for .NET MVC](https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-.NET-MVC)
+- [Document viewer](https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Java-Spring) for Java Spring
+- [Document viewer](https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Java-Dropwizard) for Java Dropwizard
+- [Document viewer](https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-.NET-WebForms) for .NET WebForms
+- [Document viewer](https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-.NET-MVC) for .NET MVC
 
 # Resources
 
