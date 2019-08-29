@@ -1,0 +1,44 @@
+{
+  "_args": [
+    [
+      "@groupdocs.examples.jquery/conversion@0.16.5",
+      "/Users/pavelegorov/Documents/repos/GroupDocs.Conversion-for-Java-Dropwizard/client"
+    ]
+  ],
+  "_from": "@groupdocs.examples.jquery/conversion@0.16.5",
+  "_id": "@groupdocs.examples.jquery/conversion@0.16.5",
+  "_inBundle": false,
+  "_integrity": "sha512-nD7LmI69TvmGllARGlHu8QHQuWbvyS5wPXV1hFFV/+b8u4xm9gqRFwStjSs8qA62iauD/CdQlnmZROsFzBHHqQ==",
+  "_location": "/@groupdocs.examples.jquery/conversion",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@groupdocs.examples.jquery/conversion@0.16.5",
+    "name": "@groupdocs.examples.jquery/conversion",
+    "escapedName": "@groupdocs.examples.jquery%2fconversion",
+    "scope": "@groupdocs.examples.jquery",
+    "rawSpec": "0.16.5",
+    "saveSpec": null,
+    "fetchSpec": "0.16.5"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@groupdocs.examples.jquery/conversion/-/conversion-0.16.5.tgz",
+  "_spec": "0.16.5",
+  "_where": "/Users/pavelegorov/Documents/repos/GroupDocs.Conversion-for-Java-Dropwizard/client",
+  "author": "",
+  "description": "jQuery plugin that allows to display and comapre documents supported by groupdocs libraries APIs",
+  "gitHead": "0459ee8f710a4f8fb53b95ab32c6a6ccf10073de",
+  "license": "MIT",
+  "main": "index.js",
+  "name": "@groupdocs.examples.jquery/conversion",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.16.5"
+}

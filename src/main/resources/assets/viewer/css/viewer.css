@@ -487,6 +487,10 @@ MODAL
     height: calc(100% - 52px);
     overflow-y: auto;
 }
+#gd-browse-section{
+    overflow-y: scroll;
+    height: calc(100% - 57px);
+}
 .gd-modal-table {
     width: 100%;
     text-align: left;
@@ -787,7 +791,6 @@ MODAL
 #gd-upload-actions {
     display: flex;
     position: relative;
-    left: 8px;
 }
 .gd-select-all {
     position: relative;
@@ -846,13 +849,15 @@ MODAL
 }
 #gd-upload-actions {
     display: flex;
-    margin-left: 15px;
+    padding-left: 25px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #CCC;
 }
 #gd-upload-actions.single {
     margin-left: 0px;
 }
 .gd-add-selected {
-    width: 125px;
+    width: 140px;
     height: 31px;
     background-color: #3E4E5A;
     color: #FFFFFF;
@@ -867,7 +872,7 @@ MODAL
 }
 .gd-add-selected label {
     font-size: 13px;
-    margin: 6px 15px 0 0;
+    line-height:31px;
     position: absolute;
 }
 .gd-add-selected i {

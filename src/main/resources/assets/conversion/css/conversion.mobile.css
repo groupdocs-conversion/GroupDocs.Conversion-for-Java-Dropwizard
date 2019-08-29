@@ -1,0 +1,96 @@
+@media (max-width: 1024px) {
+    #gd-header {
+        height: 60px;
+    }
+
+    #gd-header-logo {
+        background-image: unset !important;
+        width: 60px;
+    }
+
+    #gd-mobile-menu {
+        margin: 24px 22px 23px 22px;
+    }
+
+    #gd-mobile-menu-open {
+        width: 15px;
+        height: 11px;
+        font-size: 13px;
+    }
+
+    #gd-navbar > li {
+        margin: 23px 22px 0 22px !important;
+        font-size: 14px !important;
+    }
+
+    #gd-convert-area > i:first-child {
+        margin-top: 219px;
+    }
+
+    .gd-modal-title {
+        font-size: 16px;
+        padding: 18px 34px;
+    }
+
+    .gd-modal-header {
+        height: 60px;
+    }
+
+    .gd-modal-close {
+        top: 18px;
+    }
+
+    .gd-file-size {
+        display: none;
+    }
+
+    .gd-filetree-name {
+        white-space: nowrap;
+        overflow: hidden;
+    }
+
+    .gd-upload-input:checked + .gd-upload-menu {
+        left: 35px;
+    }
+
+    .gd-queue-header, .gd-conversion-pending, .gd-conversion-complite {
+        display: none;
+    }
+
+    .gd-destination-file .gd-queue-name {
+        margin-top: 2px;
+        font-size: 12px;
+    }
+
+    .gd-queue-name {
+        margin-top: 16px;
+        width: 222px;
+    }
+
+    .gd-filequeue-name i:first-of-type {
+        color: rgba(110, 110, 110, 0.4) !important;
+    }
+
+    .gd-filequeue-name i {    
+        margin: 19px 7px 0 0;
+    }
+
+    .gd-destination-file i {
+        font-size: 12px;
+        margin: 4px;
+    }
+
+    .gd-convert-progress {
+        margin: 20px 27px;
+        position: relative;
+    }
+
+    .gd-convert-single, .gd-download-single {
+        margin: 29px 27px;
+        position: relative;
+    }
+
+    .gd-filequeue-name {
+        width: inherit;
+    }
+}

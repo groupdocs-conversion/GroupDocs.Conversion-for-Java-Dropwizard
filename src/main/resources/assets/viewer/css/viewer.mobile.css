@@ -96,7 +96,7 @@
 		left: 0;
 	}
 	.gd-modal-body {
-		max-height: calc(100% - 100px);
+		max-height: calc(100% - 53px);
 	}	
 	.gd-modal-title{
 	    font-size: 32px;
@@ -109,7 +109,11 @@
 	}
 	.gd-modal-table > tbody > tr > td:nth-child(2){
         max-width: 100vw;
-    }
+	}
+	
+	.gd-modal-table-head label:last-child{
+		display: none;
+	}
 	.col-md-1, .col-md-3, .col-md-5, .gd-modal-table td:nth-child(3), .gd-modal-table td:last-child{
         display: none !important;
     }
