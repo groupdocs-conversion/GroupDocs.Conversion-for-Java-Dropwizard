@@ -54,4 +54,4 @@ conversion:
   filesDirectory: DocumentSamples
   # Result files directory path
   # Absolute path to result files directory
-  resultDirectory:
+  resultDirectory: ''

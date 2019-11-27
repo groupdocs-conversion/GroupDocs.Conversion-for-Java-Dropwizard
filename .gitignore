@@ -8,8 +8,8 @@ target/*
 vs.bin
 App_Data/*
 node_modules
-src/main/resources/static/assets/*
-!src/main/resources/static/assets/.gitkeep
+src/main/resources/assets/*
+!src/main/resources/assets/.gitkeep
 node/
 etc/
 package-lock.json
