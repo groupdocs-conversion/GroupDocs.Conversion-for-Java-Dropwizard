@@ -3,9 +3,9 @@
 GroupDocs.Conversion for Java Dropwizard UI Example
 ###### version 0.0.8
 
-[![Build Status](https://travis-ci.org/groupdocs-Conversion/GroupDocs.Conversion-for-Java-Dropwizard.svg?branch=master)](https://travis-ci.org/groupdocs-Conversion/GroupDocs.Conversion-for-Java-Dropwizard)
-[![Maintainability](https://api.codeclimate.com/v1/badges/d12e227136c312bb3dad/maintainability)](https://codeclimate.com/github/groupdocs-conversion/GroupDocs.Conversion-for-Java-Dropwizard/maintainability)
 [![GitHub license](https://img.shields.io/github/license/groupdocs-Conversion/GroupDocs.Conversion-for-Java-Dropwizard.svg)](https://github.com/groupdocs-Conversion/GroupDocs.Conversion-for-Java-Dropwizard/blob/master/LICENSE)
+
+:warning: **This repository has moved to https://github.com/groupdocs-conversion/GroupDocs.Conversion-for-Java/tree/master/Demos/Dropwizard**
 
 ## System Requirements
 - Java 8 (JDK 1.8)
